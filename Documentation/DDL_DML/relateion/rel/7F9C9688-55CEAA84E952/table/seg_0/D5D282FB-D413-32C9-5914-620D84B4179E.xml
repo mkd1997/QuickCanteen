@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5D282FB-D413-32C9-5914-620D84B4179E" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="ORDER_HEADER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>ORDER_HEADER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="70A3970D-3EF1-F41C-08F7-E8BDD2A31F74">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_HEADER</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STU_ID" id="990818BD-5320-7F43-BF2B-95DD4F1BF518">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_HEADER</sourceObjSchema>
+<sourceObjName>STU_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTEEN_ID" id="DA8D8D1F-A004-6C2F-6A65-AE0127703E6E">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_HEADER</sourceObjSchema>
+<sourceObjName>CANTEEN_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="31010F86-601B-9496-D944-C8DDA45334FF">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_HEADER</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="5BF02CD4-DD10-07EC-BAA2-7265A67E5E93">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_HEADER</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<constraintName>STATUS_CHECK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;can_app&apos;" description=""/>
+<valueDef value="&apos;can_deny&apos;" description=""/>
+<valueDef value="&apos;can_request&apos;" description=""/>
+<valueDef value="&apos;placed&apos;" description=""/>
+<valueDef value="&apos;prepared&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="6258F5E5-F7A8-36BD-3733-79D0EC9BC2B4">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_HEADER</sourceObjSchema>
+<sourceObjName>ORDER_DATE</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<defaultValue>(sysdate)</defaultValue>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF7B5A43-01CA-618E-3693-2C02B84AB47E" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="ORDER_HEADER_PK">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>SYS_C007220</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70A3970D-3EF1-F41C-08F7-E8BDD2A31F74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

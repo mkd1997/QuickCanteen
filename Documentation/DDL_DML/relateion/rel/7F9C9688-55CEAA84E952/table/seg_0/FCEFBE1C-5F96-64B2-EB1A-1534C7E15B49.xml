@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCEFBE1C-5F96-64B2-EB1A-1534C7E15B49" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="ADMIN_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>ADMIN_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADMIN_ID" id="2DF458BE-1B24-A5B1-5FA6-AC0DF7024072">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ADMIN_MASTER</sourceObjSchema>
+<sourceObjName>ADMIN_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASS" id="D2CF3962-5342-DE0C-EC21-656D459C4EDC">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ADMIN_MASTER</sourceObjSchema>
+<sourceObjName>PASS</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNAME" id="3C586C9D-13A8-F018-131B-A3191429CBD4">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ADMIN_MASTER</sourceObjSchema>
+<sourceObjName>UNAME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A0A52C3-1A90-CE53-4A71-C48853878F77" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="ADMIN_MASTER_PK">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>SYS_C007188</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DF458BE-1B24-A5B1-5FA6-AC0DF7024072"/>
+<colUsage columnID="3C586C9D-13A8-F018-131B-A3191429CBD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

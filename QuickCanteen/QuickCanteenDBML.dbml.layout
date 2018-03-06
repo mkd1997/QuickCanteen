@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QuickCanteenDBML">
+  <DataContextMoniker Name="/QuickCanteenDBMLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="56bbbd5f-d283-4646-9870-99f0a9dc2fdd" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/admin_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="111fab5a-8889-40d1-8297-2eec171fdba8" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0efab952-0fbd-4f06-a17a-a691c569b893" isExpanded="false" absoluteBounds="2.625, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/canteen_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04b7ff1d-ae90-42ec-bbfe-dd1f7ee5ddc7" absoluteBounds="2.64, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5908c9af-08e8-4c87-9383-2a861ca3e00d" isExpanded="false" absoluteBounds="0.5, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/canteen_notification_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75b06980-d9fc-46e2-b57b-fd77794e4486" absoluteBounds="0.51500000000000012, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="72640953-5de3-4d7c-997b-1e1d9c120571" absoluteBounds="2.75, 1.25, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/food_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="205288f4-df2d-4823-a801-3a24c6b90c84" absoluteBounds="2.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95801b88-8647-4b1b-a013-369903df8dfd" absoluteBounds="2.75, 2.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/menu_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee5d1d1d-dbaf-4baa-8510-405b54b88758" absoluteBounds="2.765, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.15625 : 2.44399251302083); (4.15625 : 2.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuickCanteenDBMLDataContext/food_master/food_master_menu_master" />
+      <nodes>
+        <classShapeMoniker Id="72640953-5de3-4d7c-997b-1e1d9c120571" />
+        <classShapeMoniker Id="95801b88-8647-4b1b-a013-369903df8dfd" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4580bd90-b8f8-43d6-af90-ada3a234a1fe" absoluteBounds="0.5, 2, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/order_header" />
+      <nestedChildShapes>
+        <elementListCompartment Id="441f8cc5-22c2-4ea5-a445-9983b7444e00" absoluteBounds="0.51500000000000012, 2.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49243234-6bd0-4586-8400-1f250effb3b5" absoluteBounds="0.5, 4.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/order_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7a921172-50bf-4944-9462-fb300a6e3fec" absoluteBounds="0.515, 4.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.421873 : 2.44399251302083); (3.421873 : 2.6875); (2.6875 : 2.6875); (2.6875 : 5.16429768880208); (2.5 : 5.16429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuickCanteenDBMLDataContext/food_master/food_master_order_detail" />
+      <nodes>
+        <classShapeMoniker Id="72640953-5de3-4d7c-997b-1e1d9c120571" />
+        <classShapeMoniker Id="49243234-6bd0-4586-8400-1f250effb3b5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.5 : 3.9631982421875); (1.5 : 4.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuickCanteenDBMLDataContext/order_header/order_header_order_detail" />
+      <nodes>
+        <classShapeMoniker Id="4580bd90-b8f8-43d6-af90-ada3a234a1fe" />
+        <classShapeMoniker Id="49243234-6bd0-4586-8400-1f250effb3b5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="888d7c74-57c0-402b-9665-e0b5f13136e9" absoluteBounds="2.875, 4.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/student_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0b95660-4340-4a4c-bf80-f2ae5985cb77" absoluteBounds="2.8899999999999997, 5.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d28b435a-b6d9-4b9e-9fb6-eb3a42374771" absoluteBounds="0.5, 6.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QuickCanteenDBMLDataContext/student_notification_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93494c72-43df-4a5e-9ceb-75c90e00dea8" absoluteBounds="0.51500000000000012, 6.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

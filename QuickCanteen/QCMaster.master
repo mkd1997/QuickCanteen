@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+<script runat="server">
+
+    protected void LinkButton1_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void Contact_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("contact.aspx");
+    }
+
+    protected void About_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("about.aspx");
+    }
+</script>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+    <style>
+        #header_wrap {
+            width: 100%;
+            height: 200px;
+        }
+
+        #links {
+            height: 30%;
+            width: 50%;
+            float: right;
+        }
+
+            #links a:link {
+                float: right;
+                margin-right: 5px;
+                margin-bottom: 80%;
+            }
+
+        .auto-style1 {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body bgcolor="#bdbdbd">
+    <form id="form1" runat="server">
+        <div id="header_wrap">
+            <a href="login.aspx">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/logo.png" Width="330px" Height="160px" />
+            </a>
+            <div id="links">
+                <asp:LinkButton ID="Contact" runat="server" OnClick="Contact_Click" CssClass="auto-style1">Contact Us</asp:LinkButton>
+                <asp:LinkButton ID="About" runat="server" OnClick="About_Click" CssClass="auto-style1">About</asp:LinkButton>
+            </div>
+            <hr />
+        </div>
+        <div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

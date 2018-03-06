@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_DETAIL" directorySegmentName="seg_0" id="2CB430AD-027E-50AC-4F45-0DA69E787E12">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9F46D36-1079-EF03-31F9-6C342348E5BC</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ORDER_ID" id="0FCAD9C4-B5B3-335E-D791-09068B9AACFD">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOOD_ITEM_ID" id="6EF99071-DF61-F5FD-7CB3-68A3A385D41E">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATE" id="7C99B1C7-8E00-F0C3-F2B8-B668B64D27F3">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTY" id="84855B7C-32AE-0A0E-262E-99F798BC9640">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<defaultValue>( 0 )</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OD_FK" id="096545ED-41A9-17F4-7F79-3E4BD4A62E26">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:26 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STUDENT_NOTIFICATION_MASTER" directorySegmentName="seg_0" id="D41ABE24-1550-76AD-2FFA-5C2A587A802B">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>59D90548-B738-04FC-8C72-5574F0EEC32F</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOT_DATE" id="2E0CAB46-EA0A-5363-8850-713F1C379DD5">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<defaultValue>( SYSDATE )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MESSAGE" id="B494584B-B94E-36C6-12D3-F97FAD44B26B">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STUDENT_ID" id="D88695D2-5042-26B8-45BB-5D1EB4226C4F">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

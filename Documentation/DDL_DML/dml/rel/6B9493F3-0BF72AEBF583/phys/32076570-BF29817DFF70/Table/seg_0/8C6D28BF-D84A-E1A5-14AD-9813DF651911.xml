@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ADMIN_MASTER" directorySegmentName="seg_0" id="8C6D28BF-D84A-E1A5-14AD-9813DF651911">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9F46D36-1079-EF03-31F9-6C342348E5BC</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PASS" id="B1998E03-6AC7-42EE-346B-4C7DB3862EE4">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADMIN_ID" id="DB5CECAE-5812-8D3C-5471-1EF6081739E5">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNAME" id="E2C39180-7F86-5771-1F3D-8FEFA9829A8B">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADMIN_MASTER_PK" id="826B1744-A7DF-BB64-BAA0-0F71F8B376CA">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:25 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<segment>80A80991-F21A-676E-69A5-BDB257400377</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<indexSegment>80A80991-F21A-676E-69A5-BDB257400377</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

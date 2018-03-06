@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relateion" id="8A85A831-CC54-1788-B754-0DE6E65F6D04" version="3.5">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:57:28 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8A85A831-CC54-1788-B754-0DE6E65F6D04</designId>
+</OSDM_Design>

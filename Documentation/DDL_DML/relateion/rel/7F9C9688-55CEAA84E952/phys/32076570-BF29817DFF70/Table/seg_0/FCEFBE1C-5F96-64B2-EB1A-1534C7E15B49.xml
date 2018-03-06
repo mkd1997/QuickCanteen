@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ADMIN_MASTER" directorySegmentName="seg_0" id="FCEFBE1C-5F96-64B2-EB1A-1534C7E15B49">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>59D90548-B738-04FC-8C72-5574F0EEC32F</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADMIN_ID" id="2DF458BE-1B24-A5B1-5FA6-AC0DF7024072">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNAME" id="3C586C9D-13A8-F018-131B-A3191429CBD4">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASS" id="D2CF3962-5342-DE0C-EC21-656D459C4EDC">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADMIN_MASTER_PK" id="1A0A52C3-1A90-CE53-4A71-C48853878F77">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<segment>76791B87-6358-41A0-8BB2-0112E3111A14</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<indexSegment>76791B87-6358-41A0-8BB2-0112E3111A14</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

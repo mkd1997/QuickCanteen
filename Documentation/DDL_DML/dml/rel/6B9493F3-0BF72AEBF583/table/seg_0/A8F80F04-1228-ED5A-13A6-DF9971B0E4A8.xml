@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8F80F04-1228-ED5A-13A6-DF9971B0E4A8" schemaObject="A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F" name="STUDENT_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>STUDENT_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CDB546C9-69FF-6C80-367E-15DCA73EA904">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="8D596129-2117-27B8-7F6A-7BA5DAA6945F">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLLEGE" id="221632C8-4044-681E-9378-6021F8837439">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>COLLEGE</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNAME" id="05F2A8EE-E624-9A10-60F1-812F79FC68D3">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>UNAME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASS" id="2BF572BD-D050-5C79-44A7-33E33B20580D">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>PASS</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WALLET" id="8A93E7AC-0816-7F37-E2BD-860528F96609">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>WALLET</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BDATE" id="50C449DB-0D5A-F29E-D5AF-47AA508F7463">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>BDATE</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PH_NO" id="5AB2E1E6-423D-B8B2-5EB5-D94F58291B77">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>STUDENT_MASTER</sourceObjSchema>
+<sourceObjName>PH_NO</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>(0)</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5087E021-E1A2-A7ED-C48E-AA496648CC25" name="PK_STUDENT_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>PK_STUDENT_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:25 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDB546C9-69FF-6C80-367E-15DCA73EA904"/>
+<colUsage columnID="05F2A8EE-E624-9A10-60F1-812F79FC68D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B934AD97-A807-C41E-9254-AB6CB0F53B8F" schemaObject="A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F" name="PK_STUDENT_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>PK_STUDENT_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDB546C9-69FF-6C80-367E-15DCA73EA904"/>
+<colUsage columnID="05F2A8EE-E624-9A10-60F1-812F79FC68D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

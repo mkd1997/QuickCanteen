@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB4D402C-1D95-6DD8-A753-1651284FBC30" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="MENU_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>MENU_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CANTEEN_ID" id="F35103FB-6E22-2D8F-D281-4E3A43D4FCE1">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>CANTEEN_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOOD_ITEM_ID" id="24703EA1-C060-6CF2-6BE9-B8229C4EEE09">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>FOOD_ITEM_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA26826C-6613-AE8A-AD7B-346413586AE2" referredColumn="EDD19F3C-9A74-6DFD-43F9-DEFE1BFA523A"/>
+</associations>
+</Column>
+<Column name="QTY" id="C24F41A0-DAC7-BF4A-BCBD-1F0406880AE6">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>( 0 )</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE" id="E10B5440-2605-D536-F023-53C1194C2A01">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>RATE</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>( 0 )</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F4819F5-FC50-C2D6-7FE8-939C81766A20" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="MENU_MASTER_PK">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>SYS_C007194</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F35103FB-6E22-2D8F-D281-4E3A43D4FCE1"/>
+<colUsage columnID="24703EA1-C060-6CF2-6BE9-B8229C4EEE09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CCBAFA8-C45D-B187-5AD2-84B5FB77CD5B" name="SYS_C007199">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24703EA1-C060-6CF2-6BE9-B8229C4EEE09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

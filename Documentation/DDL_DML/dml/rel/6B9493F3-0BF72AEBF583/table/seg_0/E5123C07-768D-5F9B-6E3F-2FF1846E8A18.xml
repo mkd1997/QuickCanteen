@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5123C07-768D-5F9B-6E3F-2FF1846E8A18" schemaObject="A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F" name="MENU_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>MENU_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CANTEEN_ID" id="630AB6A9-5DBA-A367-0644-D27BB5641BCF">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>CANTEEN_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOOD_ITEM_ID" id="01FA2054-A25B-FB64-FB59-CB1594AB81C5">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>FOOD_ITEM_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58902CBB-711B-A39B-B050-CC3E2D31D655" referredColumn="E85D171D-2DAD-4650-8156-C7BEEF00E0A7"/>
+</associations>
+</Column>
+<Column name="QTY" id="B1B9A2C5-0014-744C-2427-F619E6EDED5F">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE" id="B076E484-C122-FDA1-D9D1-15B54C60D1DE">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MENU_MASTER</sourceObjSchema>
+<sourceObjName>RATE</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="519BF1DD-1279-F741-4A4A-C5FFAF13BAE4" schemaObject="A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F" name="MENU_MASTER_PK">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>SYS_C007067</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="630AB6A9-5DBA-A367-0644-D27BB5641BCF"/>
+<colUsage columnID="01FA2054-A25B-FB64-FB59-CB1594AB81C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D4FFFE6-BCCB-158A-932D-4135B4F2A1F5" name="FII_FK">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:26 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01FA2054-A25B-FB64-FB59-CB1594AB81C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

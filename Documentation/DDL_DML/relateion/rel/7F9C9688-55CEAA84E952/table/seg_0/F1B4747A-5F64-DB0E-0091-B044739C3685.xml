@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1B4747A-5F64-DB0E-0091-B044739C3685" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="FOOD_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>FOOD_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FOOD_ITEM_ID" id="EDD19F3C-9A74-6DFD-43F9-DEFE1BFA523A">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>FOOD_MASTER</sourceObjSchema>
+<sourceObjName>FOOD_ITEM_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="9D24A8F0-F42B-2DD2-B981-CE2C88A876E2">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>FOOD_MASTER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05127664-6496-730D-4AF5-BE929F5256A3" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="FOOD_MASTER_PK">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>SYS_C007197</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDD19F3C-9A74-6DFD-43F9-DEFE1BFA523A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A8DE49D-E502-08AB-FFEA-00A60754D4D0" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="FOOD_MASTER_NAME_UN">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>SYS_C007198</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D24A8F0-F42B-2DD2-B981-CE2C88A876E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

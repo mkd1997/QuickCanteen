@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CB430AD-027E-50AC-4F45-0DA69E787E12" schemaObject="A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F" name="ORDER_DETAIL">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>ORDER_DETAIL</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="0FCAD9C4-B5B3-335E-D791-09068B9AACFD">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36CBC09D-99FF-C755-7BD0-C0D63F9F1A20" referredColumn="D0872765-D6DD-A7C9-99BC-D55AD0CEB062"/>
+</associations>
+</Column>
+<Column name="FOOD_ITEM_ID" id="6EF99071-DF61-F5FD-7CB3-68A3A385D41E">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>FOOD_ITEM_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTY" id="84855B7C-32AE-0A0E-262E-99F798BC9640">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>( 0 )</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE" id="7C99B1C7-8E00-F0C3-F2B8-B668B64D27F3">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>RATE</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="096545ED-41A9-17F4-7F79-3E4BD4A62E26" name="OD_FK">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:26 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FCAD9C4-B5B3-335E-D791-09068B9AACFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

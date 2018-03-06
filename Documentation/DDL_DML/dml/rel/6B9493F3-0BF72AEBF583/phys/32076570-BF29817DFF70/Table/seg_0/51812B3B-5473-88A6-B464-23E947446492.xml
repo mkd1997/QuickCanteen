@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_HEADER" directorySegmentName="seg_0" id="51812B3B-5473-88A6-B464-23E947446492">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9F46D36-1079-EF03-31F9-6C342348E5BC</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CANTEEN_ID" id="4F55747E-4454-DEE1-9841-55D555E367CE">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="5B0073AD-4044-C995-BD79-A6804BC1991B">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STU_ID" id="6217CAEA-1D09-C538-001C-BC1975ADA203">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_DATE" id="A9EB8EA0-E275-58AE-81D5-CAB7B9DE67F9">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_ID" id="D0872765-D6DD-A7C9-99BC-D55AD0CEB062">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="E2B0CFBB-08AE-5C66-F445-FCD771339ED0">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_HEADER_PK" id="F51B3BBE-756E-AEEC-624A-AEE7B9DCE0F9">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:25 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<segment>80A80991-F21A-676E-69A5-BDB257400377</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<indexSegment>80A80991-F21A-676E-69A5-BDB257400377</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

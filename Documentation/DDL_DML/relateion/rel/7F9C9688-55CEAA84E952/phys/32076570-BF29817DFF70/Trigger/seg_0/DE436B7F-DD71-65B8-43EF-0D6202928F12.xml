@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TR_CHK_AMT" directorySegmentName="seg_0" id="DE436B7F-DD71-65B8-43EF-0D6202928F12">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>TR_CHK_AMT</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>DECLARE&lt;br/&gt;    tmp_wallet   NUMBER(5);&lt;br/&gt;BEGIN&lt;br/&gt;    SELECT&lt;br/&gt;        wallet&lt;br/&gt;    INTO&lt;br/&gt;        tmp_wallet&lt;br/&gt;    FROM&lt;br/&gt;        student_master&lt;br/&gt;    WHERE&lt;br/&gt;        id =:new.stu_id;&lt;br/&gt;&lt;br/&gt;    IF&lt;br/&gt;        ( tmp_wallet &lt; :new.amount )&lt;br/&gt;    THEN&lt;br/&gt;        ROLLBACK;&lt;br/&gt;    END IF;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>FF5DD8E7-2D51-AA63-09C1-15A78087D88F</owner>
+<table>D5D282FB-D413-32C9-5914-620D84B4179E</table>
+</TriggerOraclev10g>

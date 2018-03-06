@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FOOD_MASTER" directorySegmentName="seg_0" id="F1B4747A-5F64-DB0E-0091-B044739C3685">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>59D90548-B738-04FC-8C72-5574F0EEC32F</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="9D24A8F0-F42B-2DD2-B981-CE2C88A876E2">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOOD_ITEM_ID" id="EDD19F3C-9A74-6DFD-43F9-DEFE1BFA523A">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FOOD_MASTER_PK" id="05127664-6496-730D-4AF5-BE929F5256A3">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<segment>76791B87-6358-41A0-8BB2-0112E3111A14</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<indexSegment>76791B87-6358-41A0-8BB2-0112E3111A14</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="FOOD_MASTER_NAME_UN" id="0A8DE49D-E502-08AB-FFEA-00A60754D4D0">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<segment>76791B87-6358-41A0-8BB2-0112E3111A14</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<indexSegment>76791B87-6358-41A0-8BB2-0112E3111A14</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

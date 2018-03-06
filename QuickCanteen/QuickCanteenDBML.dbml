@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QuickCanteenDB" Class="QuickCanteenDBMLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\QuickCanteenDB.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SQLDS1ConStr" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.admin_master" Member="admin_masters">
+    <Type Name="admin_master">
+      <Column Name="admin_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="uname" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.canteen_master" Member="canteen_masters">
+    <Type Name="canteen_master">
+      <Column Name="canteen_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="wallet" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="open_time" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="close_time" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="rating" Type="System.Decimal" DbType="Decimal(5,1)" CanBeNull="true" />
+      <Column Name="order_limit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ph_no" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="uname" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="canteen_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="feedback_count" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.canteen_notification_master" Member="canteen_notification_masters">
+    <Type Name="canteen_notification_master">
+      <Column Name="canteen_id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="not_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="message" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.food_master" Member="food_masters">
+    <Type Name="food_master">
+      <Column Name="food_item_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="food_master_menu_master" Member="menu_masters" ThisKey="food_item_id" OtherKey="food_item_id" Type="menu_master" />
+      <Association Name="food_master_order_detail" Member="order_details" ThisKey="food_item_id" OtherKey="food_item_id" Type="order_detail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.menu_master" Member="menu_masters">
+    <Type Name="menu_master">
+      <Column Name="canteen_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="food_item_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="qty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="food_master_menu_master" Member="food_master" ThisKey="food_item_id" OtherKey="food_item_id" Type="food_master" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.order_header" Member="order_headers">
+    <Type Name="order_header">
+      <Column Name="order_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="stu_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="canteen_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="amount" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="order_header_order_detail" Member="order_details" ThisKey="order_id" OtherKey="order_id" Type="order_detail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.order_detail" Member="order_details">
+    <Type Name="order_detail">
+      <Column Name="order_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="food_item_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="qty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rate" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Association Name="food_master_order_detail" Member="food_master" ThisKey="food_item_id" OtherKey="food_item_id" Type="food_master" IsForeignKey="true" />
+      <Association Name="order_header_order_detail" Member="order_header" ThisKey="order_id" OtherKey="order_id" Type="order_header" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.student_master" Member="student_masters">
+    <Type Name="student_master">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="college" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="uname" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="wallet" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="bdate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ph_no" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.student_notification_master" Member="student_notification_masters">
+    <Type Name="student_notification_master">
+      <Column Name="student_id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="not_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="message" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

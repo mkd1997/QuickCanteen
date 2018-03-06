@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCanteen", "QuickCanteen\QuickCanteen.csproj", "{ADCF54CA-497A-44DB-BC1C-BB8159AF0DB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADCF54CA-497A-44DB-BC1C-BB8159AF0DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCF54CA-497A-44DB-BC1C-BB8159AF0DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCF54CA-497A-44DB-BC1C-BB8159AF0DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCF54CA-497A-44DB-BC1C-BB8159AF0DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vsmprojects.visualstudio.com/
+		SccProjectUniqueName0 = QuickCanteen\\QuickCanteen.csproj
+		SccProjectName0 = QuickCanteen
+		SccAuxPath0 = https://vsmprojects.visualstudio.com
+		SccLocalPath0 = QuickCanteen
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

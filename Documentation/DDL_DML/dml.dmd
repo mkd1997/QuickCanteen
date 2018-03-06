@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dml" id="AF4C2077-0CEC-A438-DF27-17FB474A9AD3" version="3.5">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 08:55:14 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AF4C2077-0CEC-A438-DF27-17FB474A9AD3</designId>
+</OSDM_Design>

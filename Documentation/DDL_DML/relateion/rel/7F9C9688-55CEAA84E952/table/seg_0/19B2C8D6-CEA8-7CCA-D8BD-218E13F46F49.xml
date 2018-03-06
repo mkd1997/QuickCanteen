@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B2C8D6-CEA8-7CCA-D8BD-218E13F46F49" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="CANTEEN_MASTER">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>CANTEEN_MASTER</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CANTEEN_ID" id="1C209CFB-AA23-0D0D-D6E6-E751D177159B">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>CANTEEN_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WALLET1" id="2A8E2DD4-18DD-B9B2-1DFC-CCD6F1E70171">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>WALLET1</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>( 0 )</defaultValue>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPEN_TIME" id="E75C4DA2-40AD-FA5E-C108-114F648EC02A">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>OPEN_TIME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<defaultValue>( SYSDATE )</defaultValue>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLOSE_TIME" id="F02DA908-2CA5-3C10-E75D-79610047A60F">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>CLOSE_TIME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<defaultValue>( SYSDATE )</defaultValue>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATING" id="DB5809CA-9E91-9D80-C32E-EE7624321EF5">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>RATING</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<defaultValue>( 0.0 )</defaultValue>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_LIMIT" id="ECD3EEEC-F20A-ADE9-D45F-2A6C0662BE89">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>ORDER_LIMIT</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>( 0 )</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PH_NO" id="B838624F-6F51-2D3E-77CF-3F2432CE7AED">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>PH_NO</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<constraintName>PH_CONST</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="regexp_like (PH_NO, &apos;^[9][1][789]\d{9}$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNAME" id="50C007D9-11EB-5FAC-D59A-7CC66E93BF9F">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>UNAME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASS" id="5226F080-D8D0-8F1F-1AAB-F0BBAF5D6E28">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>PASS</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="844A3055-1EA9-DDEE-EF95-C79BE1FB2DD3">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<constraintName>email_const</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="&lt;br/&gt;    email LIKE &apos;%_@_%._%&apos;&lt;br/&gt;"/>
+</checkConstraint>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTEEN_NAME" id="135DF086-32CA-9342-57BD-1BD4CADBC3DA">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>CANTEEN_NAME</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FEEDBACK_COUNT" id="2B5F24F0-F71B-6BB2-CD62-033E4C1275C2">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>CANTEEN_MASTER</sourceObjSchema>
+<sourceObjName>FEEDBACK_COUNT</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>( 0 )</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AD078AC-13E7-5076-2DF6-8F157D572D15" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="CANTEEN_MASTER_PK">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>SYS_C007174</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50C007D9-11EB-5FAC-D59A-7CC66E93BF9F"/>
+<colUsage columnID="1C209CFB-AA23-0D0D-D6E6-E751D177159B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

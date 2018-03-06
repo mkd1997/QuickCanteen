@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QCMaster1.master.cs" Inherits="QuickCanteen.QCMaster1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        #header_wrap {
+            width: 100%;
+            height: 200px;
+        }
+
+        #logout {
+            float: right;
+        }
+    </style>
+</head>
+<body bgcolor="#bdbdbd">
+
+    <form id="form1" runat="server">
+        <div id="header_wrap">
+            <a href="login.aspx">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/logo.png" Width="230px" Height="140px" />
+                <div id="logout">
+                    <asp:LinkButton ID="Logout" runat="server" OnClick="Logout_Click" CausesValidation="false">Logout</asp:LinkButton>
+                </div>
+            </a>
+
+            <hr />
+        </div>
+        <div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

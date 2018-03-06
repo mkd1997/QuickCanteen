@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CANTEEN_MASTER" directorySegmentName="seg_0" id="19B2C8D6-CEA8-7CCA-D8BD-218E13F46F49">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>59D90548-B738-04FC-8C72-5574F0EEC32F</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CANTEEN_NAME" id="135DF086-32CA-9342-57BD-1BD4CADBC3DA">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTEEN_ID" id="1C209CFB-AA23-0D0D-D6E6-E751D177159B">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WALLET1" id="2A8E2DD4-18DD-B9B2-1DFC-CCD6F1E70171">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<defaultValue>( 0 )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FEEDBACK_COUNT" id="2B5F24F0-F71B-6BB2-CD62-033E4C1275C2">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<defaultValue>( 0 )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="UNAME" id="50C007D9-11EB-5FAC-D59A-7CC66E93BF9F">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASS" id="5226F080-D8D0-8F1F-1AAB-F0BBAF5D6E28">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="844A3055-1EA9-DDEE-EF95-C79BE1FB2DD3">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PH_NO" id="B838624F-6F51-2D3E-77CF-3F2432CE7AED">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATING" id="DB5809CA-9E91-9D80-C32E-EE7624321EF5">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<defaultValue>( 0.0 )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="OPEN_TIME" id="E75C4DA2-40AD-FA5E-C108-114F648EC02A">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<defaultValue>( SYSDATE )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ORDER_LIMIT" id="ECD3EEEC-F20A-ADE9-D45F-2A6C0662BE89">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<defaultValue>( 0 )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CLOSE_TIME" id="F02DA908-2CA5-3C10-E75D-79610047A60F">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<defaultValue>( SYSDATE )</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CANTEEN_MASTER_PK" id="2AD078AC-13E7-5076-2DF6-8F157D572D15">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<schemaObject>58B65220-4C8F-0ECA-B26F-2766C859D62F</schemaObject>
+<segment>76791B87-6358-41A0-8BB2-0112E3111A14</segment>
+<tableSpace>2DA340BC-00C5-32D8-6E61-3317C9FAC463</tableSpace>
+<indexSegment>76791B87-6358-41A0-8BB2-0112E3111A14</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

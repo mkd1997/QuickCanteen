@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MKD" directorySegmentName="seg_0" id="04870041-A46D-EB07-A256-61343CD3D428">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjName>MKD</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:22 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+</UserOraclev10g>

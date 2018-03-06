@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.5" name="QCDB1">
+  <DataContextMoniker Name="/QCDB1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="aea11ce6-ba9e-4144-a084-a27d83b6e26b" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QCDB1DataContext/admin_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1eb6f59-4dfc-4c7b-a094-52f4370f6ceb" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e1545420-01a2-4ae8-9f0a-968745ee41fb" isExpanded="false" absoluteBounds="3, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/QCDB1DataContext/canteen_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="633e2427-d77e-4fd4-bffd-05d8a152bdd4" absoluteBounds="3.015, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="06345ce5-40e6-49f8-bea0-67d644e4adae" absoluteBounds="3.625, 4.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QCDB1DataContext/canteen_notification_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="01fcd2f0-82b4-41a1-adf2-52f38a80eb4f" absoluteBounds="3.64, 5.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e57850c3-6f43-44b2-80d4-6f4b0f0375c5" absoluteBounds="0.5, 4.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/QCDB1DataContext/food_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0064c484-8d32-4f50-9acb-3191f25afeab" absoluteBounds="0.515, 5.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a07c002e-932b-4d1d-abe1-01b9555f0772" absoluteBounds="0.5, 2, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QCDB1DataContext/menu_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd88e339-d4f8-46f7-a453-5f06163bc047" absoluteBounds="0.51500000000000012, 2.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 4.75); (1.5 : 3.57859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QCDB1DataContext/food_master/food_master_menu_master" />
+      <nodes>
+        <classShapeMoniker Id="e57850c3-6f43-44b2-80d4-6f4b0f0375c5" />
+        <classShapeMoniker Id="a07c002e-932b-4d1d-abe1-01b9555f0772" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8be07718-6894-470c-a8ed-1ac6dc3e5317" absoluteBounds="3.375, 1.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QCDB1DataContext/order_header" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81d56c54-1caa-47d7-b867-7708c7e8e136" absoluteBounds="3.39, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="04a9f272-e400-4d3c-9bfc-872d9cf1dd54" absoluteBounds="3.375, 3.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QCDB1DataContext/order_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="57dca620-f49c-4867-ae63-212bb21c705d" absoluteBounds="3.39, 3.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 4.75091745577925); (2.875 : 4.37591745577925); (2.875 : 5.20359537760417); (3.00121330413662 : 5.20359537760417); (3.37621330413662 : 4.82859537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QCDB1DataContext/food_master/food_master_order_detail" />
+      <nodes>
+        <classShapeMoniker Id="e57850c3-6f43-44b2-80d4-6f4b0f0375c5" />
+        <classShapeMoniker Id="04a9f272-e400-4d3c-9bfc-872d9cf1dd54" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.375 : 3.0881982421875); (4.375 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QCDB1DataContext/order_header/order_header_order_detail" />
+      <nodes>
+        <classShapeMoniker Id="8be07718-6894-470c-a8ed-1ac6dc3e5317" />
+        <classShapeMoniker Id="04a9f272-e400-4d3c-9bfc-872d9cf1dd54" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e6f04ee7-4c83-41a9-a0ce-3ff8e2f99a95" absoluteBounds="2.75, 7.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QCDB1DataContext/student_notification_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9dd2416b-95ea-4e20-969c-0c4554ce4eca" absoluteBounds="2.765, 8.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

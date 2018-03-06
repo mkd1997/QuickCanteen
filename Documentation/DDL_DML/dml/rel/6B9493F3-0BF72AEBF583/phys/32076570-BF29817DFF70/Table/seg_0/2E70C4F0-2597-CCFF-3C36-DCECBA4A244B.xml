@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CANTEEN_MASTER" directorySegmentName="seg_0" id="2E70C4F0-2597-CCFF-3C36-DCECBA4A244B">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9F46D36-1079-EF03-31F9-6C342348E5BC</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PH_NO" id="39E0F4B3-C329-AB02-FB22-6BE86646332B">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLOSE_TIME" id="624B9792-16D5-F616-DBB8-5B4CC88B2C29">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_LIMIT" id="6CF28A64-7A9C-AB4D-EDEC-AB526BB3A747">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<defaultValue>( 0 )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PASS" id="6D79375E-C6E5-D80C-DB69-4F8CDEF49EC8">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNAME" id="6FC42D17-6098-0A40-C775-91A2B7E9BDE2">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPEN_TIME" id="703DEC3F-5BAF-24E1-22CD-A658DF5B8BCA">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTEEN_ID" id="7F3D77B2-7AA0-F7A4-941E-24EB2313A33A">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATING" id="B98B6523-8F0F-687E-CD43-C8E3AEAA2C18">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<defaultValue>( 0 )</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="WALLET1" id="D85404A6-9DC4-AED6-ACA3-BC70881D8FFE">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<defaultValue>( 0 )</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CANTEEN_MASTER_PK" id="39668281-2378-686D-42F9-F5969E42A52C">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:25 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<segment>80A80991-F21A-676E-69A5-BDB257400377</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<indexSegment>80A80991-F21A-676E-69A5-BDB257400377</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

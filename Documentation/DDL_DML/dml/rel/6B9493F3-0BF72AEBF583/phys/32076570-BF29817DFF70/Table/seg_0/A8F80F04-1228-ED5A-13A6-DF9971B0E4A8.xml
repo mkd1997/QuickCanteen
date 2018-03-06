@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STUDENT_MASTER" directorySegmentName="seg_0" id="A8F80F04-1228-ED5A-13A6-DF9971B0E4A8">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:23 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9F46D36-1079-EF03-31F9-6C342348E5BC</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UNAME" id="05F2A8EE-E624-9A10-60F1-812F79FC68D3">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLLEGE" id="221632C8-4044-681E-9378-6021F8837439">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASS" id="2BF572BD-D050-5C79-44A7-33E33B20580D">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BDATE" id="50C449DB-0D5A-F29E-D5AF-47AA508F7463">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PH_NO" id="5AB2E1E6-423D-B8B2-5EB5-D94F58291B77">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<defaultValue>(0)</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="WALLET" id="8A93E7AC-0816-7F37-E2BD-860528F96609">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="8D596129-2117-27B8-7F6A-7BA5DAA6945F">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="CDB546C9-69FF-6C80-367E-15DCA73EA904">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_STUDENT_MASTER" id="B934AD97-A807-C41E-9254-AB6CB0F53B8F">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:24 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<schemaObject>A0CF0DD3-872C-A683-D5DC-E7DA1F6F7D4F</schemaObject>
+<segment>80A80991-F21A-676E-69A5-BDB257400377</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_STUDENT_MASTER" id="5087E021-E1A2-A7ED-C48E-AA496648CC25">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-10-13 09:02:25 UTC</createdTime>
+<ownerDesignName>dml</ownerDesignName>
+<segment>80A80991-F21A-676E-69A5-BDB257400377</segment>
+<tableSpace>1C91AD57-C619-D3EB-7B48-7E5EF6490753</tableSpace>
+<existingIndex>B934AD97-A807-C41E-9254-AB6CB0F53B8F</existingIndex>
+<indexSegment>80A80991-F21A-676E-69A5-BDB257400377</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

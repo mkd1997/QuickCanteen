@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91918DF8-38AF-E15D-3349-DCB84FC1C713" schemaObject="58B65220-4C8F-0ECA-B26F-2766C859D62F" name="ORDER_DETAIL">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>MKD</sourceObjSchema>
+<sourceObjName>ORDER_DETAIL</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="B2A8F30B-95AD-09F9-6B34-1F59160C6699">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC4BC0CC-0587-5252-3D98-F2288F7B9A3A" referredColumn="70A3970D-3EF1-F41C-08F7-E8BDD2A31F74"/>
+</associations>
+</Column>
+<Column name="FOOD_ITEM_ID" id="1E7AE950-9203-AF0E-D227-97A3C36CD9FC">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>FOOD_ITEM_ID</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE945B64-FE8D-4735-2D58-25A7382AD752" referredColumn="EDD19F3C-9A74-6DFD-43F9-DEFE1BFA523A"/>
+</associations>
+</Column>
+<Column name="QTY" id="ACD89906-8181-39CA-E733-8EB0A4D7F87F">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>( 0 )</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE" id="B272AC5D-4860-CBA6-81F6-9D874FDF4F4E">
+<sourceConnName>mkd</sourceConnName>
+<sourceObjSchema>ORDER_DETAIL</sourceObjSchema>
+<sourceObjName>RATE</sourceObjName>
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:04 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="466D9036-5E28-3E90-4A32-6C3A49DBFD91" name="FD_FK">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E7AE950-9203-AF0E-D227-97A3C36CD9FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F7C2AB9-F766-29DC-A592-945C85C793BB" name="OD_FK">
+<createdBy>Manav Desai</createdBy>
+<createdTime>2017-11-08 10:58:05 UTC</createdTime>
+<ownerDesignName>relateion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A8F30B-95AD-09F9-6B34-1F59160C6699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
